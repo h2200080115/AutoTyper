@@ -1,24 +1,25 @@
 # Autotyper - Quick Clipboard to Text Tool
 
-A simple Python tool that automatically types the content from your clipboard at high speed. Perfect for quickly transferring text from your phone to your computer using Phone Link.
+A simple Python tool that automatically types the content from your clipboard at high speed. Perfect for quickly transferring text from your phone to your computer using either Phone Link or KDE Connect.
 
 ## Features
 - Auto-types clipboard content at high speed
 - Hotkey controls (F8 to start, F7 to stop)
 - Works with Phone Link's cross-device clipboard feature
+- Works with KDE Connect's clipboard sync
 - Types approximately 100 lines of code in 5 seconds
 
 ## Prerequisites
 1. Python 3.x installed on your computer
-2. Phone Link app installed on both:
-   - Your Windows PC
-   - Your mobile device (Android/iOS)
+2. Either:
+   - Phone Link app (Windows + Mobile), or
+   - KDE Connect (Linux/Windows + Mobile)
 
 ## Installation
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/autotyper.git
+git clone https://github.com/h2200080115/AutoTyper.git
 cd autotyper
 ```
 
@@ -27,14 +28,26 @@ cd autotyper
 pip install -r requirements.txt
 ```
 
-## Setup Phone Link
+## Setup Options
 
+### Option 1: Phone Link Setup
 1. Install Phone Link on your Windows PC from the Microsoft Store
 2. Install Phone Link on your mobile device
 3. Open Phone Link on your PC
 4. Follow the pairing process to link your phone
 5. Go to Settings -> Features
 6. Enable "Cross-device copy and paste"
+
+### Option 2: KDE Connect Setup (Alternative)
+1. Install KDE Connect on your computer:
+   - Windows: Download from Microsoft Store
+   - Linux: `sudo apt install kdeconnect` (Ubuntu/Debian) or equivalent for your distribution
+2. Install KDE Connect on your mobile device from:
+   - Android: Google Play Store
+   - iOS: App Store
+3. Open KDE Connect on both devices
+4. Pair devices using Bluetooth
+5. On both devices, enable "Send clipboard" in the KDE Connect settings
 
 ## Usage
 
@@ -43,7 +56,7 @@ pip install -r requirements.txt
 python autotyper.py
 ```
 
-2. Copy text on your phone (the text will automatically sync to your PC's clipboard via Phone Link)
+2. Copy text on your phone (the text will automatically sync to your PC's clipboard via either Phone Link or KDE Connect)
 
 3. Use the hotkeys:
    - Press `F8` to start auto-typing
@@ -53,7 +66,8 @@ python autotyper.py
 - The tool types at maximum speed (no delay between characters)
 - Make sure your cursor is in the correct position before starting
 - The tool will type whatever is currently in your clipboard
-- Works best with Phone Link's cross-device clipboard feature
+- Works with both Phone Link and KDE Connect clipboard sync
+- For KDE Connect users, ensure Bluetooth is enabled on both devices
 
 ## Use Case Example
 This tool is particularly useful for:
