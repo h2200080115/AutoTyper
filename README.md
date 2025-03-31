@@ -1,8 +1,8 @@
 # Autotyper - Quick Clipboard to Text Tool
 
 <div align="center">
-  <img src="images/logo.png" alt="Autotyper Logo" width="200"/>
   <p><em>Fast clipboard to text automation tool</em></p>
+  <p>Made by Karthikeya Kotha</p>
 </div>
 
 A simple Python tool that automatically types the content from your clipboard at high speed. Perfect for quickly transferring text from your phone to your computer using either Phone Link or KDE Connect.
@@ -36,10 +36,6 @@ pip install -r requirements.txt
 ## Setup Options
 
 ### Option 1: Phone Link Setup
-<div align="center">
-  <img src="images/phone-link-setup.png" alt="Phone Link Setup" width="600"/>
-</div>
-
 1. Install Phone Link on your Windows PC from the Microsoft Store
 2. Install Phone Link on your mobile device
 3. Open Phone Link on your PC
@@ -48,10 +44,6 @@ pip install -r requirements.txt
 6. Enable "Cross-device copy and paste"
 
 ### Option 2: KDE Connect Setup (Alternative)
-<div align="center">
-  <img src="images/kde-connect-setup.png" alt="KDE Connect Setup" width="600"/>
-</div>
-
 1. Install KDE Connect on your computer:
    - Windows: Download from Microsoft Store
    - Linux: `sudo apt install kdeconnect` (Ubuntu/Debian) or equivalent for your distribution
@@ -63,11 +55,6 @@ pip install -r requirements.txt
 5. On both devices, enable "Send clipboard" in the KDE Connect settings
 
 ## Usage
-
-<div align="center">
-  <img src="images/usage-demo.gif" alt="Usage Demo" width="600"/>
-  <p><em>Watch how it works!</em></p>
-</div>
 
 1. Run the autotyper script:
 ```bash
@@ -101,5 +88,5 @@ MIT License - Feel free to use and modify as needed.
 
 ---
 <div align="center">
-  <p>Made with ❤️ for faster typing</p>
+  <p>Made with ❤️ by Karthikeya Kotha</p>
 </div> 
